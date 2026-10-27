@@ -78,7 +78,7 @@ h3 {
   letter-spacing: .22em;
   font-size: .72rem;
   font-weight: 600;
-  color: var(--teal);
+  color: var(--pink);
   text-transform: uppercase;
   display: block;
   margin-bottom: .9rem;
@@ -167,12 +167,18 @@ header {
 }
 
 /************************************************************************************* new part */
- /* Logo: empty at the top of the page, appears only once scrolled past the hero */
+ /* Logo in the header */
 .logo-slot {
     display: flex;
     align-items: center;
     min-width: 40px;
     min-height: 34px;
+}
+
+.logo-slot .logo-nav-img {
+  height:50px; 
+  width:auto; 
+  display:block;
 }
 
 .logo-slot .logo-icon {
@@ -348,9 +354,12 @@ header.scrolled .logo-slot .logo-icon {
 /* ===== HOME HERO ===== */
 .home-hero {
   position: relative;
-  background: linear-gradient(120deg, var(--teal) 0%, #0a6c78 45%, var(--pink-deep) 100%);
+  background: linear-gradient(120deg, rgba(1,91,102,.82) 0%, rgba(10,108,120,.6) 45%, rgba(217,155,161,.5) 100%),
+    url('./flores2.jpg');
+  background-size:cover;
+  background-position:right;
   color: var(--white);
-  padding: 6rem 2rem 5rem;
+  padding: 4.5rem 1.5rem 4rem;
   overflow: hidden;
 }
 
@@ -687,6 +696,13 @@ footer {
 .foot-social {
   display: flex;
   gap: .7rem;
+}
+
+.foot-bottom-dev {
+  text-align: right;
+  /* padding-top: 1.4rem; */
+  font-size: .75rem;
+  opacity: .75;
 }
 
 .foot-social a {

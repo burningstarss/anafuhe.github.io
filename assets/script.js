@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const burger = document.getElementById('burger');
   const navLinks = document.getElementById('navLinks');
   const dropdownParents = document.querySelectorAll('.has-dropdown');
+  let closeTimer = null;
 
   function closeEverything() {
     if (navLinks) navLinks.classList.remove('open');
