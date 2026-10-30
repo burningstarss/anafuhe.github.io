@@ -130,7 +130,8 @@ h3 {
 
 /* ===== HEADER / NAV ===== */
 header {
-  background: var(--pink-soft);
+  /* background: var(--pink-soft); */
+  background: var(--white);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -148,13 +149,6 @@ header {
   margin: 0 auto;
   padding: 1.2rem 2rem;
 }
-
-/* .logo {
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  letter-spacing: .06em;
-  color: var(--teal);
-} */
 
 /* Header logo in all pages */
 #logo { 
@@ -221,7 +215,7 @@ header.scrolled .logo-slot .logo-icon {
   bottom: 0;
   width: 0;
   height: 1px;
-  background: var(--teal);
+  background: var(--pink);
   transition: width .25s ease;
 }
 
@@ -231,7 +225,7 @@ header.scrolled .logo-slot .logo-icon {
 }
 
 .nav-links>li.active>a {
-  color: var(--teal);
+  color: var(--pink);
 }
 
 .has-dropdown>a {
@@ -454,13 +448,25 @@ section {
   margin: 0 auto;
 }
 
-.service-card {
+/* .service-card {
   background: var(--white);
   border: 1px solid var(--pink-soft);
   border-radius: 6px;
   padding: 2.2rem 1.8rem;
   text-align: center;
   transition: transform .3s ease, box-shadow .3s ease;
+} */
+ .service-card {
+  background:var(--white); 
+  border:1px solid var(--pink-soft); 
+  border-radius:6px;
+  padding:2rem 1.6rem; 
+  text-align:center; 
+  transition:transform .3s ease, box-shadow .3s ease;
+  display:flex; 
+  flex-direction:column; 
+  align-items:center; 
+  height:100%;
 }
 
 .service-card:hover {
@@ -506,6 +512,7 @@ section {
   color: var(--teal);
   border-bottom: 1px solid var(--teal);
   padding-bottom: 2px;
+  margin-top:auto;
 }
 
 /* ===== CONTENT BLOCKS (interior pages) ===== */
