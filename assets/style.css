@@ -39,6 +39,14 @@ body {
   /* margin-bottom: auto; */
 }
 
+/* IMG TERAPIA - QUÉ ES */
+.img-terapia1 {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 12px 24px rgba(1, 91, 102, .12);
+}
+
 /* img, */
 svg {
   display: block;
@@ -65,7 +73,7 @@ h2,
 h3 {
   font-family: var(--font-serif);
   font-weight: 600;
-  color: var(--ink);
+  color: var(--White);
 }
 
 .wrap {
@@ -323,7 +331,6 @@ header.scrolled .logo-slot .logo-icon {
   font-size: .75rem;
   letter-spacing: .06em;
   opacity: .85;
-  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   gap: .5rem;
@@ -448,15 +455,7 @@ section {
   margin: 0 auto;
 }
 
-/* .service-card {
-  background: var(--white);
-  border: 1px solid var(--pink-soft);
-  border-radius: 6px;
-  padding: 2.2rem 1.8rem;
-  text-align: center;
-  transition: transform .3s ease, box-shadow .3s ease;
-} */
- .service-card {
+.service-card {
   background:var(--white); 
   border:1px solid var(--pink-soft); 
   border-radius:6px;
@@ -517,7 +516,7 @@ section {
 
 /* ===== CONTENT BLOCKS (interior pages) ===== */
 .content-block {
-  max-width: 900px;
+  max-width: 1150px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -545,8 +544,9 @@ section {
 }
 
 .content-art {
-  background: linear-gradient(150deg, var(--teal), var(--pink-deep));
-  border-radius: 0 0 160px 160px / 0 0 120px 120px;
+   background: linear-gradient(150deg, var(--teal), var(--pink-deep)/*, url('./img-terapia1.jpeg')*/); 
+  /* border-radius: 0 0 160px 160px / 0 0 120px 120px; */
+  border-radius: 0 0 0px 160px / 0 0 160px 160px;
   height: 300px;
   display: flex;
   align-items: center;
@@ -759,52 +759,6 @@ footer {
     width: 100%;
     padding: .7rem 0;
   }
-
-  /* .dropdown {
-    position: static;
-    box-shadow: none;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    display: none;
-    margin-top: .5rem;
-    padding-left: .5rem;
-  }
-
-  .has-dropdown.open .dropdown {
-    display: block;
-  } 
-
-  .burger {
-    display: flex;
-  }
-
-  .home-hero-inner {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .home-hero p {
-    margin: 0 auto 2rem;
-  }
-
-  .hero-actions {
-    justify-content: center;
-  }
-
-  .content-block {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .content-block.reverse {
-    direction: ltr;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-}*/
 
  .dropdown {
         position: static;
