@@ -20,9 +20,10 @@
       <img src="assets/Logo.png" alt="Logo" id="logo">
       <div class="breadcrumb"><a href="index.html">Inicio</a><span>/</span><a href="servicios.html">Servicios</a><span>/</span><span>Terapia y autoconocimiento</span></div>
     </a>
+
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">INICIO</a></li>
-      <li class="has-dropdown open">
+      <li class="has-dropdown">
         <a href="servicios.html">SERVICIOS <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><path d="M6 9l6 6 6-6"/></svg></a>
         <ul class="dropdown">
           <li><a href="terapias.html">Terapias</a></li>
@@ -37,61 +38,100 @@
   </nav>
 </header>
 
-<section class="page-hero">
-  <!-- <div class="breadcrumb"><a href="index.html">Inicio</a><span>/</span><a href="servicios.html">Servicios</a><span>/</span><span>Terapias</span></div> -->
-  <h1>TERAPIA Y AUTOCONOCIMIENTO</h1>
-  <p>Autoconocimiento, crecimiento y evolución personal.</p>
+<!-- ===================== HERO ===================== -->
+<section class="page-hero tp-hero">
+  <h1>Terapia y autoconocimiento</h1>
+  <p>Autoconocimiento, crecimiento y evolución personal</p>
 </section>
-
-<div class="content-block">
-  <div>
+ 
+<!-- ===================== QUÉ ES (texto + imagen a la derecha) ===================== -->
+<section class="tp-split">
+  <div class="tp-split__text">
     <span class="eyebrow">Qué es</span>
-    <h2>Comprenderte para poder evolucionar</h2>
+    <h2>Comprenderte<br>para poder evolucionar</h2>
     <p>Para mí, la terapia no consiste únicamente en aliviar aquello que en un momento determinado nos hace sufrir. También es un espacio para comprender cómo funcionamos, qué hemos aprendido a lo largo de nuestra historia, cómo nos relacionamos, qué patrones repetimos y qué recursos necesitamos desarrollar para seguir avanzando.</p>
-    <p>A veces llegamos a terapia porque algo duele, bloquea o desborda. Otras veces llegamos simplemente porque queremos conocernos mejor. En ambos casos, el autoconocimiento se convierte en el punto de partida desde el que poder elegir con mayor consciencia cómo queremos vivir.</p>
+    <p>A veces llegamos a terapia porque algo duele, bloquea o desborda. Otras veces llegamos simplemente porque queremos conocernos mejor. En ambos casos, el autoconocimiento se convierte en el punto de partida desde el que poder elegir con mayor conciencia cómo queremos vivir.</p>
   </div>
-  <div class="content-art">
-    <!-- <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="70" fill="none" stroke="#fff" stroke-width="1.5" opacity=".6"/><circle cx="100" cy="100" r="40" fill="#fff" opacity=".9"/></svg> -->
-     <!-- <img src="./assets/img-terapia1.jpeg" alt="Terapia y autoconocimiento" class="img-terapia1"> -->
-  </div>
-</div>
-
-<section class="section-tinted">
-  <div class="section-title">
-    <span class="eyebrow">Beneficios</span>
-    <h2>Qué te puede aportar</h2>
-  </div>
-  <div class="benefit-list">
-    <div class="benefit-item">
-      <h4>[Ejemplo 1]</h4>
-      <p>Lorem ipsum dolor sit amet.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>[Ejemplo 2]</h4>
-      <p>Lorem ipsum dolor sit amet.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>[Ejemplo 3]</h4>
-      <p>Lorem ipsum dolor sit amet.</p>
-    </div>
+  <div class="tp-split__media">
+    <img src="assets/terapia-1.jpg" alt="Mujer contemplando las montañas al atardecer">
   </div>
 </section>
-
-<div class="content-block reverse">
-  <div>
-    <span class="eyebrow">[¿Algo que añadir?]</span>
-    <h2>[Título 1]</h2>
-    <p>Lorem ipsum dolor sit amet.</p>
+ 
+<!-- ===================== FORMAS DE TRABAJO (3 tarjetas) ===================== -->
+<section class="tp-ways">
+  <div class="tp-ways__head">
+    <span class="eyebrow" style="color:var(--teal);">Formas de trabajo</span>
+    <h2>Un mismo enfoque, diferentes espacios</h2>
   </div>
-  <div class="content-art">
-    <svg viewBox="0 0 200 200"><rect x="60" y="60" width="80" height="80" rx="16" fill="#fff" opacity=".9" transform="rotate(45 100 100)"/></svg>
+  <div class="tp-ways__grid">
+ 
+    <article class="tp-card">
+      <div class="tp-card__icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21v-9"/><path d="M12 13c0-3.6-2.6-6-6.5-6 0 3.6 2.6 6 6.5 6z"/><path d="M12 11c0-3 2.2-5.2 5.5-5.2 0 3-2.2 5.2-5.5 5.2z"/><path d="M8 21h8"/></svg>
+      </div>
+      <h3>Terapia individual</h3>
+      <p>Un espacio para profundizar en tu forma de pensar, sentir, relacionarte y actuar; comprender patrones y desarrollar nuevos recursos para tu vida.</p>
+      <p class="tp-card__note">Disponible para cualquier persona que desee iniciar su proceso personal.</p>
+    </article>
+ 
+    <article class="tp-card">
+      <div class="tp-card__icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="10" r="5"/><circle cx="15" cy="10" r="5"/><circle cx="12" cy="15" r="5"/></svg>
+      </div>
+      <h3>Terapia de pareja</h3>
+      <p>Un espacio para comprender la dinámica que se crea entre ambos, mejorar la comunicación y revisar patrones individuales y relacionales que dificultan el vínculo.</p>
+      <p class="tp-card__note">Disponible cuando al menos uno de los miembros de la pareja es paciente mío.</p>
+    </article>
+ 
+    <article class="tp-card">
+      <div class="tp-card__icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="8" r="2"/><circle cx="12" cy="6.5" r="2.3"/><circle cx="18.5" cy="8" r="2"/><path d="M2 17c0-2.6 1.5-4.5 3.5-4.5S9 14.4 9 17"/><path d="M8.5 18c0-3 1.5-5.2 3.5-5.2s3.5 2.2 3.5 5.2"/><path d="M15 17c0-2.6 1.5-4.5 3.5-4.5S22 14.4 22 17"/></svg>
+      </div>
+      <h3>Terapia familiar</h3>
+      <p>Cuando una situación trabajada en terapia implica al sistema familiar, podemos incorporar a otros miembros para comprender juntos lo que está ocurriendo y buscar nuevas formas de relacionarse.</p>
+      <p class="tp-card__note">Este trabajo se realiza siempre dentro del proceso terapéutico de uno de mis pacientes.</p>
+    </article>
+ 
   </div>
-</div>
-
-<section class="cta-banner">
-  <h2>[¿Algo más que añadir?]</h2>
-  <p>Lorem ipsum dolor sit amet.</p>
-  <!-- <a href="mailto:hola@nombreespacio.com" class="btn btn-light">Reservar una sesión</a> -->
+</section>
+ 
+<!-- ===================== MI MANERA DE TRABAJAR (texto + imagen a la derecha) ===================== -->
+<section class="tp-split">
+  <div class="tp-split__text">
+    <span class="eyebrow" style="color:var(--teal);">Mi manera de trabajar</span>
+    <h2>Conocerte va mucho más allá de saber qué te pasa</h2>
+    <p>Mi formación inicial me llevó durante años a conocer y trabajar diferentes formas de sufrimiento psicológico y a especializarme en distintos trastornos.</p>
+    <p>Con el tiempo, mi mirada fue ampliándose y mi interés se centró cada vez más en la personalidad y la conducta humana.</p>
+    <p>Porque saber qué nos ocurre es importante, pero muchas veces no es suficiente. Me interesa comprender quién es la persona que tengo delante: cómo ha construido su manera de estar en el mundo, qué necesita, qué teme, qué repite, cómo se protege, cómo se vincula y qué recursos tiene todavía por descubrir.</p>
+    <blockquote class="tp-quote">El síntoma puede ser la puerta de entrada, pero detrás siempre hay una persona mucho más amplia.</blockquote>
+  </div>
+  <div class="tp-split__media">
+    <img src="assets/terapia-2.jpg" alt="Diente de león al atardecer">
+  </div>
+</section>
+ 
+<!-- ===================== UNA MIRADA INTEGRATIVA (imagen a la izquierda + texto) ===================== -->
+<section class="tp-split tp-split--reverse">
+  <div class="tp-split__text">
+    <span class="eyebrow" style="color:var(--teal);">Una mirada integrativa</span>
+    <h2>Distintos lenguajes para comprender a una misma persona</h2>
+    <p>La psicología constituye la base de mi formación y de mi manera de comprender a la persona.</p>
+    <p>A lo largo de más de veinte años de experiencia he ido ampliando esa mirada e incorporando formaciones y herramientas procedentes de ámbitos muy diferentes.</p>
+    <p>Algunas pertenecen al terreno psicológico y científico; otras se acercan al ser humano desde lenguajes simbólicos, corporales, sistémicos o energéticos. No considero que sean equivalentes ni pretendo presentarlas como tales.</p>
+    <p>Las integro cuando considero que pueden aportar una perspectiva útil al proceso, siempre teniendo en cuenta a la persona, su momento y aquello que estamos trabajando.</p>
+  </div>
+  <div class="tp-split__media">
+    <img src="assets/terapia-3.jpg" alt="Piedras apiladas sobre arena rastrillada">
+  </div>
+</section>
+ 
+<!-- ===================== CIERRE (banner con imagen de fondo) ===================== -->
+<section class="tp-cta">
+  <img class="tp-cta__bg" src="assets/terapia-4.jpg" alt="">
+  <div class="tp-cta__inner">
+    <h2>No es necesario estar mal para empezar un proceso terapéutico.</h2>
+    <p>A veces el punto de partida es simplemente el deseo de conocerte mejor, comprenderte con mayor profundidad y seguir evolucionando.</p>
+  </div>
 </section>
 
 <footer>
